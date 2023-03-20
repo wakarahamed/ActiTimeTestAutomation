@@ -44,20 +44,20 @@ public class TestUtil extends TestBase {
         switch(browserName.toLowerCase()) {
             
             case "firefox":
-                PAGE_LOAD_TIMEOUT = 30;
-                IMPLICIT_WAIT = 30;
+                PAGE_LOAD_TIMEOUT = 35;
+                IMPLICIT_WAIT = 35;
                 break;
             case "chrome":
-                PAGE_LOAD_TIMEOUT = 60;
-                IMPLICIT_WAIT = 60;
+                PAGE_LOAD_TIMEOUT = 55;
+                IMPLICIT_WAIT = 55;
                 break;
             case "safari":
-                PAGE_LOAD_TIMEOUT = 45;
-                IMPLICIT_WAIT = 45;
-                break;
-            default:
                 PAGE_LOAD_TIMEOUT = 40;
                 IMPLICIT_WAIT = 40;
+                break;
+            default:
+                PAGE_LOAD_TIMEOUT = 50;
+                IMPLICIT_WAIT = 50;
                 break;
         }
     }
