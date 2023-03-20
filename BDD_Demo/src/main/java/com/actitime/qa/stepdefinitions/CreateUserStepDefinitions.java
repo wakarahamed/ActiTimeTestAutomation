@@ -18,17 +18,17 @@ public class CreateUserStepDefinitions extends TestBase {
         initialization();
     }
 
-    @When("^When User click on users tab$")
+    @When("^When User clicks on users tab$")
     public void User_click_on_users_tab() throws Throwable {
         homePage.clickOnUsersLink();
     }
 
-    @Then("^Then User click on new user button$")
+    @Then("^Then User clicks on new user button$")
     public void user_click_on_new_user_button() throws Throwable {
         usersPage.clickOnNewUserButton();
     }
 
-    @Then("^Then Fill in user data$")
+    @Then("^Then Fill up user data$")
     public void user_fill_in_user_data() throws Throwable {
         UserCredential userCredential = UsersUtil.getUserCredential();
         usersPage.fillUserData(userCredential);
