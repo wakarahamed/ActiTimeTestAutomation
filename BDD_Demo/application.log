@@ -40,3 +40,7 @@
 2023-03-20 11:30:24,463  INFO [main] HomePage:51 - Validated Logo
 2023-03-20 11:30:39,174  INFO [main] LoginPage:77 - User name enterd as trainee
 2023-03-20 11:30:39,413  INFO [main] HomePage:51 - Validated Logo
+2023-03-20 11:51:00,507  INFO [main] LoginPage:77 - User name enterd as admin
+2023-03-20 11:51:00,790  INFO [main] HomePage:51 - Validated Logo
+2023-03-20 11:51:16,129  INFO [main] LoginPage:77 - User name enterd as trainee
+2023-03-20 11:51:16,394  INFO [main] HomePage:51 - Validated Logo
